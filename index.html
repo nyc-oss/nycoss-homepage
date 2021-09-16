@@ -6,22 +6,23 @@
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
 
-    <title>NYC OSS: New York City Open Source Society</title>
-    <meta name="description" content="New York City Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
+    <title>NYC OSS: New York Open Source Society</title>
+    <meta name="description" content="New York Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
     <meta name="keywords" content="nyc,oss,open source,software,tech,coding,software engineer,software developer,github">
+    <link rel="icon" href="/img/logo/opt6-favicon.png" type="image/x-icon">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://nycoss.org/">
-    <meta property="og:title" content="NYC OSS: New York City Open Source Society">
-    <meta property="og:description" content="New York City Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
+    <meta property="og:title" content="NYC OSS: New York Open Source Society">
+    <meta property="og:description" content="New York Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
     <meta property="og:image" content="https://nycoss.org/img/logo/opt6.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://nycoss.org/">
-    <meta property="twitter:title" content="NYC OSS: New York City Open Source Society">
-    <meta property="twitter:description" content="New York City Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
+    <meta property="twitter:title" content="NYC OSS: New York Open Source Society">
+    <meta property="twitter:description" content="New York Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.">
     <meta property="twitter:image" content="https://nycoss.org/img/logo/opt6.png">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -35,9 +36,9 @@
         font-family: "Playfair Display";
     }
     body, html {
-    height: 100%;
-    color: black;
-    line-height: 1.8;
+      height: 100%;
+      color: black;
+      line-height: 1.8;
     }
 
     /* Create a Parallax Effect */
@@ -50,7 +51,12 @@
 
     /* First image (Logo. Full height) */
     .bgimg-1 {
-    background-image: url('/img/pexels-sanaan-mazhar-3052361.jpg');
+    /* background-image: url('/img/pexels-sanaan-mazhar-3052361.jpg'); */
+    background-image: url("/img/logo/opt6-components/opt6.onlywords.transparent.png"),
+                      url("/img/pexels-sanaan-mazhar-3052361.buildings.png"),
+                      url('/img/logo/opt6-components/opt6.onlyshapes.transparent.png'),
+                      url('/img/pexels-sanaan-mazhar-3052361.jpg');
+    background-size: 65% auto, cover, 65% auto, cover;
     min-height: 100%;
     }
 
@@ -104,22 +110,21 @@
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container " id="home">
+<div class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-xlarge w3-wide">
-        <img src="/img/logo/opt6-tight.transparent.png" style="width:100%" />
+        <!-- <img src="/img/logo/opt6-tight.transparent.png" style="width:100%" /> -->
     </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-    <!-- <h3 class="w3-center">New York City<br/>Open Source Society</h3> -->
     <span class="w3-center w3-xlarge w3-wide">
         <img style="width:100%" src="/img/banner/opt1_PLAIN.black.transparent.png"/>
     </span>
   <!-- <p class="w3-center"><em>Get Together and Invent</em></p> -->
-  <p>New York City Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.  We strive to help developers connect with other developers who can help them create useful and interesting software and other technologies.  If you're interested, fill out your skill inventory <a href="https://docs.google.com/forms/d/1vAKvUKpn3KbaAyBQgIi3cBhWTJGwwDfV_Yj5KWkChic" target="_blank">here</a> and we will reach out to you!</p>
+  <p>New York Open Source Society (NYC OSS) is an organization designed to connect developers and techies of all varieties in New York City with the goal of furthering the world's greater open source codebase.  We strive to help developers connect with other developers who can help them create useful and interesting software and other technologies.  If you're interested, fill out your skill inventory <a href="https://docs.google.com/forms/d/1vAKvUKpn3KbaAyBQgIi3cBhWTJGwwDfV_Yj5KWkChic" target="_blank">here</a> and we will reach out to you!</p>
   <!-- <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
