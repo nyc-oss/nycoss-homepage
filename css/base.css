@@ -45,6 +45,14 @@ background-image: url("/img/pexels-junior-teixeira-2047905.jpg");
   min-height: 400px;
 }
 
+.bgimg-4 {
+    /* background-image: url('/img/pexels-sanaan-mazhar-3052361.jpg'); */
+    background-image: url("/img/pexels-junior-teixeira-2047905.crop.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50%;
+  }
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
